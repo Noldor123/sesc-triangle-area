@@ -4,6 +4,6 @@
 int main(void) {
   float num;
   scanf("%f", &num);
-  printf("%.3f", num^2*sqrt(3)/4);
+  printf("%.3f", num*num*sqrt(3)/4);
   return 0;
 }
